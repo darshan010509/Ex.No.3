@@ -1,33 +1,61 @@
-# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
+To write prompts for four prompting techniques—Straightforward Prompts, Tabular Format Prompting, Preceding Question Prompting, and Missing Word Prompting—and evaluate them using a use case from Unit 5: Machine Learning (Spam Email Classification).
 
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
+USE CASE SELECTED (Unit 5)
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
-Procedure:
-1.	Straightforward Prompts:
-    - •	"Define photosynthesis in one sentence."
-    - 	"List three advantages of electric vehicles."
+Spam Email Classification using Machine Learning
+This use case explains how emails are classified as “spam” or “not spam” using algorithms such as Naïve Bayes or Logistic Regression.
 
- 3.	Tabular Format Prompting:
-     •	"Compare and contrast AC and DC current in a table."
-     •	"Provide a table listing five programming languages, their paradigms, and one use case each."
-3. Preceding Question Prompting:
-    •	"Why is climate change a global concern? Explain how greenhouse gases contribute to global warming."
-    •	"How do vaccines work? Describe the process of immunization in simple terms."
-4. Missing Word Prompting:
-   •	"The capital of France is ____."
-  •	"In photosynthesis, plants absorb sunlight to produce ____."
+REPORT USING UNIT 2 PROMPT TYPES
+1. Straightforward Prompts
+Prompt Examples
 
+“Define spam email classification in one sentence.”
 
-### Conclusion 
+“List three algorithms commonly used for spam detection.”
 
+Model Output
 
-Result: The various types of Prompts are executed successfully with generated the report.
+“Spam email classification is the process of automatically identifying and filtering unwanted or harmful emails using machine learning models.”
 
+“Three commonly used algorithms are Naïve Bayes, Logistic Regression, and Support Vector Machines.”
 
+2. Tabular Format Prompting
+Prompt
 
+“Create a table comparing three machine learning algorithms used for spam classification, including accuracy, speed, and ease of implementation.”
 
-# Result: Thus the Prompts were exected succcessfully.
+Model Output (Table)
+Algorithm	Accuracy	Speed	Ease of Implementation
+Naïve Bayes	High	Very Fast	Easy
+Logistic Regression	High	Moderate	Moderate
+SVM	Very High	Slow	Hard
+3. Preceding Question Prompting
+Prompt
+
+“Why is spam classification important? Explain how machine learning identifies spam emails.”
+
+Model Output
+
+Spam classification is important because it prevents phishing attacks, protects user data, and reduces inbox clutter. Machine learning identifies spam emails by learning from labeled examples, extracting features such as keywords or sender patterns, and classifying incoming messages using trained models.
+
+4. Missing Word Prompting
+Prompt Examples
+
+“The algorithm commonly used for spam filtering due to its speed and simplicity is ____.”
+
+“Spam emails often contain suspicious links and ____ content.”
+
+Model Output
+
+Naïve Bayes
+
+malicious
+
+CONCLUSION
+
+The four different prompt types—straightforward prompts, tabular format prompting, preceding question prompting, and missing-word prompting—were successfully executed for the selected Unit 5 use case.
+
+RESULT
+
+Thus, the prompts were executed successfully, and the sample report was generated using the required prompting techniques.
 
