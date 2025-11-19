@@ -1,61 +1,120 @@
-To write prompts for four prompting techniques—Straightforward Prompts, Tabular Format Prompting, Preceding Question Prompting, and Missing Word Prompting—and evaluate them using a use case from Unit 5: Machine Learning (Spam Email Classification).
+Date : 02.09.2025
+Register number : 212222080013
 
-USE CASE SELECTED (Unit 5)
+REPORT: Designing an AI-Powered Customer Support Chatbot Using Unit-2 Prompt Types
+AIM
 
-Spam Email Classification using Machine Learning
-This use case explains how emails are classified as “spam” or “not spam” using algorithms such as Naïve Bayes or Logistic Regression.
+To design an AI-powered customer support chatbot capable of assisting customers with product troubleshooting, order tracking, and general inquiries. The experiment applies Unit-2 prompt patterns—Straightforward Prompts, Tabular Format Prompting, and Preceding Question Prompting—to a Unit-5 use case (AI chatbot development). The goal is to analyze how these different prompt types influence chatbot behavior and improve its overall efficiency and conversational performance.
 
-REPORT USING UNIT 2 PROMPT TYPES
-1. Straightforward Prompts
-Prompt Examples
+PROCEDURE
 
-“Define spam email classification in one sentence.”
+Identify the Use Case (Unit 5):
+AI-powered customer support chatbot for handling FAQs, troubleshooting, and order status queries.
 
-“List three algorithms commonly used for spam detection.”
+Select Prompt Types (Unit 2):
 
-Model Output
+Straightforward Prompts
 
-“Spam email classification is the process of automatically identifying and filtering unwanted or harmful emails using machine learning models.”
+Tabular Format Prompting
 
-“Three commonly used algorithms are Naïve Bayes, Logistic Regression, and Support Vector Machines.”
+Preceding Question Prompting
 
-2. Tabular Format Prompting
-Prompt
+Design prompts for each method and execute them using an AI platform.
 
-“Create a table comparing three machine learning algorithms used for spam classification, including accuracy, speed, and ease of implementation.”
+Observe the responses for accuracy, clarity, completeness, and consistency.
 
-Model Output (Table)
-Algorithm	Accuracy	Speed	Ease of Implementation
-Naïve Bayes	High	Very Fast	Easy
-Logistic Regression	High	Moderate	Moderate
-SVM	Very High	Slow	Hard
-3. Preceding Question Prompting
-Prompt
+Analyze how each prompt type influences the chatbot’s output quality.
 
-“Why is spam classification important? Explain how machine learning identifies spam emails.”
+Prepare the report with algorithms, conclusion, and results.
 
-Model Output
+ALGORITHM 1: Straightforward Prompts
+Definition:
 
-Spam classification is important because it prevents phishing attacks, protects user data, and reduces inbox clutter. Machine learning identifies spam emails by learning from labeled examples, extracting features such as keywords or sender patterns, and classifying incoming messages using trained models.
+A direct, simple prompt that asks the AI to perform a specific task without additional structure.
 
-4. Missing Word Prompting
-Prompt Examples
+Steps:
 
-“The algorithm commonly used for spam filtering due to its speed and simplicity is ____.”
+Provide a single, clear question or command.
 
-“Spam emails often contain suspicious links and ____ content.”
+Ensure it targets the task directly (no context layering).
 
-Model Output
+Evaluate the AI output for clarity and correctness.
 
-Naïve Bayes
+Example Prompt for Chatbot Design:
 
-malicious
+“Explain how the chatbot should respond to a customer asking: ‘My product is not turning on. What should I do?’”
+
+Expected Behavior:
+
+Clear troubleshooting steps
+
+Friendly tone
+
+No additional prompting required
+
+ALGORITHM 2: Tabular Format Prompting
+Definition:
+
+Prompts that instruct the AI to organize responses in a structured table format.
+
+Steps:
+
+Specify the table columns and required information.
+
+Ask the AI to fill content relevant to chatbot functions.
+
+Analyze how structure improves readability.
+
+Example Prompt:
+
+“Create a table showing three customer issues and how the chatbot should respond. Include columns: Issue Type, Example Customer Query, Chatbot Response.”
+
+Expected Behavior:
+
+Cleanly formatted table
+
+Categorized responses
+
+Helpful for chatbot workflow design
+
+ALGORITHM 3: Preceding Question Prompting
+Definition:
+
+This prompt style gives an initial question that the AI must answer before addressing the final prompt. It helps the AI build context.
+
+Steps:
+
+Provide an initial question to activate reasoning.
+
+Follow with the main task.
+
+Ensure the AI uses the earlier answer to enhance the final output.
+
+Example Prompt:
+
+“What are the common customer support issues in e-commerce? Based on your answer, design a chatbot response for each issue.”
+
+Expected Behavior:
+
+Context-aware responses
+
+Better depth since AI “thinks” before producing final output
+
+More aligned chatbot design flow
 
 CONCLUSION
 
-The four different prompt types—straightforward prompts, tabular format prompting, preceding question prompting, and missing-word prompting—were successfully executed for the selected Unit 5 use case.
+Using different Unit-2 prompt patterns significantly impacts the quality of responses generated for designing an AI customer support chatbot.
+
+Straightforward Prompts give quick, clear outputs suitable for simple tasks.
+
+Tabular Format Prompting improves organization, making it ideal for structuring chatbot workflows.
+
+Preceding Question Prompting increases reasoning depth and enables context-rich responses.
+
+These prompt types together help build a more efficient, user-friendly, and context-aware AI chatbot for resolving customer issues effectively.
 
 RESULT
 
-Thus, the prompts were executed successfully, and the sample report was generated using the required prompting techniques.
+The various prompt types—Straightforward, Tabular Format, and Preceding Question Prompting—were successfully applied to the chatbot use case. Each method generated appropriate outputs according to its design pattern. The experiment confirmed that structured prompt engineering enhances chatbot reliability, conversational flow, and response accuracy in customer support applications.
 
